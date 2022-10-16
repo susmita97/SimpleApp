@@ -49,8 +49,10 @@ def app():
                else:
                     st.write('Oh no not approved.')
                     st.write('Your FEDTI score is too high, normally it should be less than or equal to 28%')
-                    st.write('A common suggestion would be to increase your down payment amount, or look for a less expensive home')
-                    st.write('Consider to continue renting while saving more for a down payment')
+                    st.write('Front-end ratio is the percentage of income that goes toward housing costs, hence,')
+                    st.write('a common suggestion would be to consider to continue renting while saving more for a down payment')
+                    st.write('Also, increase your down payment amount, or look for a less expensive home')
+                    
                     st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
                     st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
 
