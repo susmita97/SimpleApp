@@ -55,6 +55,8 @@ def app():
                     
                     st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
                     st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
+                    st.write('Also check out : What is a loan-to-value ratio and how does it relate to my costs?')
+                    st.write('https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-to-value-ratio-and-how-does-it-relate-to-my-costs-en-121/#:~:text=The%20loan%2Dto%2Dvalue%20(,will%20require%20private%20mortgage%20insurance.')
 
             else:
                  st.write('Oh no not approved.')
@@ -62,9 +64,13 @@ def app():
                  st.write('A common suggestion would be to pay off some current debt or transfer debt to a lower interest rate loan/credit card')
                  st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
                  st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
+                 st.write('Also check out : Why your debt-to-income ratio is important')
+                 st.write('https://bettermoneyhabits.bankofamerica.com/en/credit/what-is-debt-to-income-ratio')
 
         else:
             st.write('Your Credit Score is too low')
             st.write('A common suggestion would be to wait for some time to buy an expensive property')
             st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
             st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
+            st.write('Also check out : How to Maintain a Good Credit Score')
+            st.write('https://www.capitalone.com/learn-grow/money-management/how-to-maintain-good-credit-score/')
