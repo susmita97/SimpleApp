@@ -21,7 +21,7 @@ def app():
     DownPayment = form.number_input(label='Down Payment',min_value=0)
     LoanAmount = form.number_input(label='Loan Amount',min_value=0)
     MonthlyMortgagePayment = form.number_input(label='Monthly Mortgage Payment',min_value=0)
-    CreditScore = form..slider(label="Credit Score",key = "CreditScore", min_value=100, max_value=1500)
+    CreditScore = form.slider(label="Credit Score",key = "CreditScore", min_value=100, max_value=1500)
     
     submit_button = form.form_submit_button(label='Submit')
 
