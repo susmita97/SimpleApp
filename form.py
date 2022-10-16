@@ -18,8 +18,8 @@ def app():
     DownPayment = form.number_input(label='Down Payment',min_value=0)
     LoanAmount = form.number_input(label='Loan Amount',min_value=0)
     MonthlyMortgagePayment = form.number_input(label='Monthly Mortgage Payment',min_value=0)
-    #CreditScore = form.slider(label="Credit Score",key = "CreditScore", min_value=0, max_value=1500)
-    CreditScore = 650
+    CreditScore = form.slider(label="Credit Score",key = "CreditScore", min_value=0, max_value=1500)
+    
     
     submit_button = form.form_submit_button(label='Submit')
 
@@ -57,7 +57,7 @@ def app():
             else:
                  st.write('Oh no not approved.')
                  st.write('Your DTI is too high, normally it should be less than or equal to 28%')
-                 st.write('A common suggestion would be to pay off some current debt or transfer debt to a lower interest rate loan / credit card')
+                 st.write('A common suggestion would be to pay off some current debt or transfer debt to a lower interest rate loan/credit card')
                  st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
                  st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
 
