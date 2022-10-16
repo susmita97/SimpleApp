@@ -1,7 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
     
-@st.cache(suppress_st_warning=True)
 def app():
 
     st.title('Check your Approval for Home Buying')
@@ -20,7 +19,7 @@ def app():
     LoanAmount = form.number_input(label='Loan Amount',min_value=0)
     MonthlyMortgagePayment = form.number_input(label='Monthly Mortgage Payment',min_value=0)
     #CreditScore = form.slider(label="Credit Score",key = "CreditScore", min_value=0, max_value=1500)
-	CreditScore = 650
+    CreditScore = 650
     
     submit_button = form.form_submit_button(label='Submit')
 
