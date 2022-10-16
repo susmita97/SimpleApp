@@ -41,13 +41,28 @@ def app():
 
                if fedti <= 28 and itv < 95: 
 
-                  st.write('Approved')
+                  st.write('Approved!')
+                  st.write('You are ready to buy a home! Yayy!!!!')
+                  st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
+                  st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
 
                else:
-                    st.write('FEDTI score too high')
+                    st.write('Oh no not approved.')
+                    st.write('Your FEDTI score is too high, normally it should be less than or equal to 28%')
+                    st.write('A common suggestion would be to increase your down payment amount, or look for a less expensive home')
+                    st.write('Consider to continue renting while saving more for a down payment')
+                    st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
+                    st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
 
             else:
-                 st.write('DTI too high')
+                 st.write('Oh no not approved.')
+                 st.write('Your DTI is too high, normally it should be less than or equal to 28%')
+                 st.write('A common suggestion would be to pay off some current debt or transfer debt to a lower interest rate loan / credit card')
+                 st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
+                 st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
 
         else:
-            st.write('Credit Score too low')
+            st.write('Your Credit Score is too low')
+            st.write('A common suggestion would be to wait for some time to buy an expensive property')
+            st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
+            st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
