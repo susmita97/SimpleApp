@@ -55,7 +55,7 @@ def app():
             else:
                  st.write('DTI too high')
 
-         else:
+        else:
             st.write('Credit Score too low')
 
 			
