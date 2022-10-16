@@ -27,7 +27,7 @@ def app():
 
     if submit_button or CreditScore:
 
-        approved = false
+        approved = False
 
         if CreditScore > 640:
 
@@ -45,7 +45,7 @@ def app():
 
                if fedti <= 28:
 
-                  approved = true
+                  approved = True
 
                   st.write('Approved')
 
