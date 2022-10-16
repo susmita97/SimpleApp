@@ -59,4 +59,4 @@ def app():
             st.write('Credit Score too low')
 
 			
-app.run()
+app()
