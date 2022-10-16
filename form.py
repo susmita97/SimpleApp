@@ -61,7 +61,10 @@ def app():
             else:
                  st.write('Oh no not approved.')
                  st.write('Your DTI is too high, normally it should be less than or equal to 28%')
-                 st.write('A common suggestion would be to pay off some current debt or transfer debt to a lower interest rate loan/credit card')
+                 st.write('DTI (Debt-to-income ratio) is the percentage of your gross monthly income that goes to paying your monthly debt payments and is used by lenders to determine your lending risk. Typically, the highest DTI a lender will accept is 43% but in general lenders prefer ratios of not more than 36% with no more than 28% of that debt going towards servicing a mortgage.')
+                 
+                 st.write('One way to lower your DTI score would be to transfer high interest loans to a low interest credit card although having too many credit cards can also negatively impact your ability to purchase a home.')
+                 st.write('A common suggestion would be to pay off some current debt')
                  st.write('A good resource: https://www.hud.gov/topics/buying_a_home')
                  st.write('The U.S. Department of Housing and Urban Development has all the resources that a first time house buyer needs!')
                  st.write('Also check out : Why your debt-to-income ratio is important')
