@@ -1,5 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
+import form, feature
 
 app = MultiApp()
 
